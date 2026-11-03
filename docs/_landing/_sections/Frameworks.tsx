@@ -15,6 +15,9 @@ export const Frameworks = () => {
   const physicalAIHubHref = useSpokeHref(
     spokes.find(({ label }) => label === "Physical AI")?.id ?? "",
   );
+  const ovmsHubHref = useSpokeHref(
+    spokes.find(({ label }) => label === "OpenVINO Model Server")?.id ?? "",
+  );
 
   return (
     <Section>
@@ -69,7 +72,7 @@ export const Frameworks = () => {
             </>
           }
           description="A suite of post-training and training-time algorithms for optimizing inference"
-          learnMoreLink={`${href}docs/get-started/`}
+          learnMoreLink={`${href}docs/openvino-workflow/model-optimization/`}
           code={[
             {
               lang: "python",
@@ -96,7 +99,7 @@ export const Frameworks = () => {
         <DottedCardDetails
           title="OpenVINO Model Server"
           description="A scalable inference server for models optimized with OpenVINO"
-          learnMoreLink={`${href}docs/get-started/`}
+          learnMoreLink={String(ovmsHubHref)}
           code={[
             {
               lang: "dockerfile",
