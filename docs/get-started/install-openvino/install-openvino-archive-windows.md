@@ -179,7 +179,7 @@ Now that you've installed OpenVINO Runtime, you're ready to run your own machine
 
   </div>
 
-  Visit the [Samples](../learn-openvino/openvino-samples/index.md#code-samples) page for other C++ example applications to get you started with OpenVINO, such as:
+  Visit the [Samples](../learn-openvino/openvino-samples/index.md) page for other C++ example applications to get you started with OpenVINO, such as:
 
   - [Basic object detection with the Hello Reshape SSD C++ sample](../../../get-started/learn-openvino/openvino-samples/hello-reshape-ssd)
   - [Object classification sample](../../../get-started/learn-openvino/openvino-samples/hello-classification)

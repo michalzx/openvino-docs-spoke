@@ -36,7 +36,7 @@ a subset of [OpenVINO Runtime C++ API](https://docs.openvino.ai/2026/api/c_cpp_a
 ## What's Next?
 
 Now that you’ve installed OpenVINO npm package, you’re ready to run your own machine
-learning applications! Explore [OpenVINO Node.js API](../../api/nodejs_api/nodejs_api.md)
+learning applications! Explore [OpenVINO Node.js API](pathname:///openvino/api/nodejs_api/nodejs_api.html)
 to learn more about how to integrate a model in Node.js applications.
 
 ## Additional Resources

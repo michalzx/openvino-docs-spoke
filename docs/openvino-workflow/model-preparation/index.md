@@ -38,9 +38,9 @@ The easiest way to obtain a model is to download it from an online database, suc
   first-inference latency, perform model optimizations, and save space on your drive, in some
   cases. Explicit conversion can be done in two ways:
   
-  - the [Python API functions](#convert-a-model-with-python-convert-model)
+  - the [Python API functions](#convert-a-model-with-python-convert_model)
     (`openvino.convert_model` and `openvino.save_model`)
-  - the [ovc](#convert-a-model-in-cli-ovc)  command line tool.
+  - the [ovc](#convert-model-cli-ovc)  command line tool.
   
   Once saved as [OpenVINO IR](convert-model-to-ir/index.md)
   (a set of `.xml` and `.bin` files), the model may be deployed with maximum performance.
@@ -49,7 +49,7 @@ The easiest way to obtain a model is to download it from an online database, suc
   it can be read, compiled, and inferred with no additional delay.
 
 :::note
-For PyTorch and JAX/Flax models, [Python API](#convert-a-model-with-python-convert-model) is the only
+For PyTorch and JAX/Flax models, [Python API](#convert-a-model-with-python-convert_model) is the only
 conversion option.
 :::
 

@@ -30,4 +30,4 @@ as archives or python wheels), build OpenVINO GenAI library from
 - [OpenVINO GenAI Installation Guide](../install-openvino-genai.md)
 - [OpenVINO GenAI repository](https://github.com/openvinotoolkit/openvino.genai)
 - [OpenVINO Installation Guide](../index.md)
-- [OpenVINO Tokenizers](../../../openvino-workflow-generative/ov-tokenizers)
+- [OpenVINO Tokenizers](pathname:///genai/docs/guides/tokenization/)

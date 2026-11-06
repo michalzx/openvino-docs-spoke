@@ -17,7 +17,7 @@ and you have three ways to do it:
 
 - [Optimum-Intel](https://github.com/huggingface/optimum-intel) - an automated solution
   applicable to a selection of models (not covered by this article, for a usage guide
-  refer to the [LLM Inference with Hugging Face and Optimum Intel](../../../../openvino-workflow-generative) article).
+  refer to the [LLM Inference with Hugging Face and Optimum Intel](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-optimum-intel.html) article).
 - [MakeStateful transformation](#ov-ug-make-stateful) - to choose which pairs of
   Parameter and Result to replace.
 - [LowLatency2 transformation](#ov-ug-low-latency) - to detect and replace Parameter

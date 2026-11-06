@@ -49,8 +49,8 @@ else:
   - **Description**: specifies rules used for auto-broadcasting of input tensors.
   - **Range of values**:
     \* *none* - no auto-broadcasting is allowed, all input shapes should match
-    \* *numpy* - numpy broadcasting rules, description is available in [Broadcast Rules For Elementwise Operations](../broadcast\_rules.md),
-    \* *pdpd* - PaddlePaddle-style implicit broadcasting, description is available in [Broadcast Rules For Elementwise Operations](../broadcast\_rules.md).
+    \* *numpy* - numpy broadcasting rules, description is available in [Broadcast Rules For Elementwise Operations](../../broadcast-rules.md),
+    \* *pdpd* - PaddlePaddle-style implicit broadcasting, description is available in [Broadcast Rules For Elementwise Operations](../../broadcast-rules.md).
   - **Type**: string
   - **Default value**: "numpy"
   - **Required**: *no*

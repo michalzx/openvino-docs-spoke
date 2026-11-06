@@ -7,14 +7,14 @@ sidebar_label: "Getting Performance Numbers"
 
 1. [Benchmarking methodology for OpenVINO](#benchmarking-methodology-for-openvino)
    
-   1. [OpenVINO benchmarking (general)](#openvino-benchmarking--general-)
-   2. [OpenVINO Model Server benchmarking (general)](#openvino-model-server-benchmarking--general-)
-   3. [OpenVINO Model Server benchmarking (LLM)](#openvino-model-server-benchmarking--llm-)
+   1. [OpenVINO benchmarking (general)](#openvino-benchmarking-general)
+   2. [OpenVINO Model Server benchmarking (general)](#openvino-model-server-benchmarking-general)
+   3. [OpenVINO Model Server benchmarking (LLM)](#openvino-model-server-benchmarking-llm)
 2. [How to obtain benchmark results](#how-to-obtain-benchmark-results)
    
    1. [General considerations](#general-considerations)
-   2. [OpenVINO benchmarking (general)](#openvino-benchmarking--general-)
-   3. [OpenVINO benchmarking (LLM)](#openvino-benchmarking--llm-)
+   2. [OpenVINO benchmarking (general)](#openvino-benchmarking-general-1)
+   3. [OpenVINO benchmarking (LLM)](#openvino-benchmarking-llm)
 
 ## Benchmarking methodology for OpenVINO
 

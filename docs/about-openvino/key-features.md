@@ -16,7 +16,7 @@ For PyTorch-based applications, specify OpenVINO as a backend using
 [torch.compile](../openvino-workflow/torch-compile.md) to improve model inference. Apply
 OpenVINO optimizations to your PyTorch models directly with a single line of code.
 
-[GenAI Out Of The Box](../openvino-workflow-generative/inference-with-genai)  
+[GenAI Out Of The Box](pathname:///genai/docs/getting-started/introduction/)  
 With the OpenVINO GenAI, you can run generative models with just a few lines of code.
 Check out the GenAI guide for instructions on how to do it.
 

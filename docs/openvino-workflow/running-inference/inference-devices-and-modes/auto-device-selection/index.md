@@ -224,7 +224,7 @@ AUTO will then query all available devices and remove CPU from the candidate lis
 
 Note that if you choose to exclude CPU from device candidate list, CPU will not be able to
 support the initial model compilation stage. See more information in
-[How AUTO Works](#auto-device-selection).
+[How AUTO Works](#how-auto-works).
 
 ### Performance Hints for AUTO
 

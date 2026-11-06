@@ -104,8 +104,8 @@ simply delete the `openvino_env` directory:
 jupyter kernelspec remove openvino_env
 ```
 
-If you run into issues, check the [Troubleshooting](#-troubleshooting), and
-[FAQs](#-faq) sections or start a GitHub
+If you run into issues, check the [Troubleshooting](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/README.md#-troubleshooting), and
+[FAQs](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/README.md#-faq) sections or start a GitHub
 [discussion](https://github.com/openvinotoolkit/openvino_notebooks/discussions).
 
 ## Additional Resources
