@@ -130,5 +130,4 @@ inference is required.
 <link rel="stylesheet" type="text/css" href="../../_static/css/benchmark-banner.css"/>
 
 Results may vary. For more information, see:
-[Platforms, Configurations, Methodology](index.md),
-[Legal Information](../additional-resources/terms-of-use.md).
+[Platforms, Configurations, Methodology](index.md).

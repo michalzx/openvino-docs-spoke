@@ -125,4 +125,3 @@ for non-Intel products.
 
 Results may vary. For more information, see
 [F.A.Q.](performance-benchmarks-faq.md)
-See [Legal Information](../additional-resources/terms-of-use.md).
