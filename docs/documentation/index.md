@@ -10,7 +10,7 @@ description: "Explore the OpenVINO toolkit workflow that entails preparing, opti
 This section provides reference documents for the OpenVINO toolkit, such as API and Operation
 listing.
 
-[API Reference doc path](../api/api_reference.md)  
+[API Reference doc path](pathname:///openvino/api/api_reference.html)  
 A collection of reference articles for OpenVINO C++, C, Node.js, and Python APIs, as well as
 the Python API for OpenVINO GenAI.
 

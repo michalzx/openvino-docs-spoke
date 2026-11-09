@@ -13,7 +13,7 @@ OpenVINO Runtime, hiding the complexity of the generation process and minimizing
 code required. You provide a model and the input context directly to the tool, while it
 performs tokenization of the input text, executes the generation loop on the selected device,
 and returns the generated content. For a quickstart guide, refer to the
-[GenAI API Guide](../../openvino-workflow-generative/inference-with-genai).
+[GenAI API Guide](pathname:///genai/docs/getting-started/introduction/).
 
 To see OpenVINO GenAI in action, check these Jupyter notebooks:
 [LLM-powered Chatbot](https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/llm-chatbot)
@@ -35,7 +35,7 @@ python -m pip install openvino-genai
 
 ## NPM Installation
 
-Install the openvino-genai-node package from [NPM]([https:/www.npmjs.com/package/openvino-genai-node](https:/www.npmjs.com/package/openvino-genai-node)).
+Install the openvino-genai-node package from [NPM](https://www.npmjs.com/package/openvino-genai-node).
 The package will automatically install the required openvino-node dependency with the matching version.
 
 ```bash
@@ -50,7 +50,7 @@ The npm installation automatically handles this requirement.
 
 ## Archive Installation
 
-The OpenVINO GenAI archive package includes the OpenVINO™ Runtime, as well as [Tokenizers](../../openvino-workflow-generative/ov-tokenizers).
+The OpenVINO GenAI archive package includes the OpenVINO™ Runtime, as well as [Tokenizers](pathname:///genai/docs/guides/tokenization/).
 It installs the same way as the standard OpenVINO Runtime, so follow its installation steps,
 just use the OpenVINO GenAI package instead:
 

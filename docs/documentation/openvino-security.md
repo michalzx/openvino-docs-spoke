@@ -12,8 +12,7 @@ with encryption or other security tools.
 Actual security and privacy requirements depend on your unique deployment scenario.
 This section provides general guidance on using OpenVINO tools and libraries securely.
 The main security measure for OpenVINO is its
-[Security Add-on](../about-openvino/openvino-ecosystem/openvino-project/openvino-security-add-on.md). You can find its description
-in the Ecosystem section.
+[Security Add-on](https://github.com/openvinotoolkit/security_addon).
 
 
 ## Using Encrypted Models with OpenVINO {#encrypted-models}

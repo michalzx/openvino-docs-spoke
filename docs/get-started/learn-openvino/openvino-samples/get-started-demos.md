@@ -36,7 +36,7 @@ Before you build samples, refer to the [system requirements](../../../about-open
 Once you perform all the steps, you can [run inference with the chosen sample application](#run-inference) to see the results.
 
 
-# Build the Sample Applications {#build-samples}
+## Build the Sample Applications {#build-samples}
 
 Select a sample you want to use from the [OpenVINO Samples](index.md) page, and follow the instructions below to build it in your operating system.
 
@@ -219,21 +219,21 @@ Instructions below show how to build sample applications with CMake. If you are 
 </Tabs>
 
 
-# Sample Application Setup {#select-sample}
+## Sample Application Setup {#select-sample}
 
 First, select a sample from the [Sample Overview](index.md) and read the dedicated article to learn how to run it.
 
 
-## Download the Models {#download-model}
+### Download the Models {#download-model}
 
 You need a model that is specific for your inference task. You can get it from one of model repositories, such as TensorFlow Zoo, HuggingFace, or TensorFlow Hub.
 
-## Convert the Model
+### Convert the Model
 
 If Your model requires conversion, check the [article](../../../openvino-workflow/model-preparation/index.md) for information how to do it.
 
 
-## Download a Media to use {#download-media}
+### Download a Media to use {#download-media}
 
 Most of the samples require you to provide an image or a video as input for the model. OpenVINO provides several sample images and videos for you to run code samples and demo applications:
 
@@ -242,7 +242,7 @@ Most of the samples require you to provide an image or a video as input for the 
 To run the sample applications, you can use images and videos from the media files collection available [here](https://storage.openvinotoolkit.org/data/test_data) . As an alternative, you can get them from sites like [Pexels](https://pexels.com) or [Google Images](https://images.google.com) .
 
 
-# Run Inference on a Sample {#run-inference}
+## Run Inference on a Sample {#run-inference}
 
 To run the code sample with an input image using the IR model:
 
@@ -336,9 +336,9 @@ OpenVINO environment variables can be set up by running the following command in
      </TabItem>
    </Tabs>
 
-# Examples
+## Examples
 
-## Running Inference on CPU
+### Running Inference on CPU
 
 The following command shows how to run the Image Classification Code Sample using the [dog.bmp](https://storage.openvinotoolkit.org/data/test_data/images/224x224/dog.bmp) file as an input image, the model in IR format from the `ir` directory, and the CPU as the target hardware:
 
@@ -411,6 +411,6 @@ Image dog.bmp
    154     0.0052615   Pekinese, Pekingese, Peke
 ```
 
-# Other Samples
+## Other Samples
 
 Articles in this section describe all sample applications provided with OpenVINO. They will give you more information on how each of them works, giving you a convenient starting point for your own application.

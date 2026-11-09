@@ -233,7 +233,7 @@ The repository also includes [agent skills](https://github.com/openvinotoolkit/p
 
 #### Upgrading from 0.1.x
 
-`PolicyRuntime` and `InferenceModel.load()` have been removed. See [Upgrade from 0.1.x](../../physical-ai/how-to/runtime/upgrade-from-0-1-x.md) for the replacements and migration steps.
+`PolicyRuntime` and `InferenceModel.load()` have been removed. See [Upgrade from 0.1.x](https://docs.openvino.ai/2026/physical-ai/how-to/runtime/upgrade-from-0-1-x.html) for the replacements and migration steps.
 
 ### Other Changes and Known Issues
 

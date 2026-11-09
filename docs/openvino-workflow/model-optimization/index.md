@@ -90,7 +90,7 @@ no additional changes to the inference code are required.
 This is true for models optimized using NNCF, as well as those pre-optimized in their source
 frameworks, such as PyTorch, and ONNX (in Q/DQ; Quantize/DeQuantize format).
 The latter may be easily converted to the
-[OpenVINO Intermediate Representation format (IR)](../../../documentation/openvino-ir-format)
+[OpenVINO Intermediate Representation format (IR)](../../documentation/openvino-ir-format/index.md)
 right away.
 :::
 

@@ -26,7 +26,7 @@ A few general considerations:
 - Using the streams does increase the latency of an individual request:
   
   - When the number of streams is not specified, a device creates a bare minimum of streams (usually, just one), as the latency-oriented case is default.
-  - See further tips for the optimal number of the streams [below](#choosing-the-number-of-streams-and-or-batch-size).
+  - See further tips for the optimal number of the streams [below](#choosing-the-number-of-streams-andor-batch-size).
 - Streams are memory-intensive, as every stream duplicates the intermediate buffers to do inference in parallel to the rest of the streams:
   
   - Always prefer streams over creating multiple `ov:Compiled_Model` instances for the same model, as weights memory is shared across streams, reducing the memory consumption.

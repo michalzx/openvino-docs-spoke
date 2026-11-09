@@ -20,12 +20,12 @@ Data as of OpenVINO 2025.4.1 (December 18, 2025).
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
 <div style={{flex: '1 1 300px'}}>
 
-[**ops with static shapes only**](../../_static/conformance_files/conformance_reports/opset_report_omz_static.html)
+[**ops with static shapes only**](https://docs.openvino.ai/2026/_static/conformance_files/conformance_reports/opset_report_omz_static.html)
 
 </div>
 <div style={{flex: '1 1 300px'}}>
 
-[**ops including dynamic inputs**](../../_static/conformance_files/conformance_reports/opset_report_omz_dynamic.html)
+[**ops including dynamic inputs**](https://docs.openvino.ai/2026/_static/conformance_files/conformance_reports/opset_report_omz_dynamic.html)
 
 </div>
 </div>

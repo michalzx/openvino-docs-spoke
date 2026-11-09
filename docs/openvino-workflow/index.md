@@ -80,7 +80,7 @@ and the quickest way of running a deep learning model.
 Deploy a model locally, reading the file directly from your application and utilizing resources available to the system.  
 Deployment on a local system uses the steps described in the section on running inference.
 
-[Deployment Option 2. Using Model Server](../../model-server/ovms_what_is_openvino_model_server)  
+[Deployment Option 2. Using Model Server](pathname:///ovms/docs/overview/)  
 Deploy a model remotely, connecting your application to an inference server and utilizing external resources, with no impact on the app's performance.  
 Deployment on OpenVINO Model Server is quick and does not require any additional steps described in the section on running inference.
 

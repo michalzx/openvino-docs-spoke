@@ -183,4 +183,3 @@ Similarity is cosine similarity - the dot product of two vectors divided by the 
 Results may vary. For more information, see
 [F.A.Q.](performance-benchmarks-faq.md) and
 [Platforms, Configurations, Methodology](index.md).
-See [Legal Information](../additional-resources/terms-of-use.md).

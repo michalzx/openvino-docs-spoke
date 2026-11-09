@@ -116,7 +116,7 @@ Learn more about how to integrate a model in OpenVINO applications by trying out
   ![](https://user-images.githubusercontent.com/36741649/127170593-86976dc3-e5e4-40be-b0a6-206379cd7df5.jpg)
 
   </div>
-- Visit the [Samples](../learn-openvino/openvino-samples/index.md#code-samples) page for other C++ example applications to get you started with OpenVINO, such as:
+- Visit the [Samples](../learn-openvino/openvino-samples/index.md) page for other C++ example applications to get you started with OpenVINO, such as:
   
   - [Basic object detection with the Hello Reshape SSD C++ sample](../../../get-started/learn-openvino/openvino-samples/hello-reshape-ssd)
   - [Object classification sample](../../../get-started/learn-openvino/openvino-samples/hello-classification)

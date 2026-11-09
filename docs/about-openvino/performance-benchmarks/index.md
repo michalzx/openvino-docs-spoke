@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 This page presents benchmark results for the
 [Intel® Distribution of OpenVINO™ toolkit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)
-and [OpenVINO Model Server](../../../model-server/ovms_what_is_openvino_model_server), for
+and [OpenVINO Model Server](pathname:///ovms/docs/overview/), for
 a representative selection of public neural networks and Intel® devices. The results may help
 you decide which hardware to use in your applications or plan AI workload for the hardware
 you have already implemented in your solutions. Click the buttons below to see the chosen
@@ -36,7 +36,7 @@ Benchmark data for the OpenVINO inference engine is available only on the
 </div>
 <div style={{flex: '1 1 300px'}}>
 
-[**LLM performance for AI PC**](./performance-benchmarks/generative-ai-performance.html)
+[**LLM performance for AI PC**](generative-ai-performance.md)
 
 </div>
 <div style={{flex: '1 1 300px'}}>
@@ -98,9 +98,9 @@ For a listing of all platforms and configurations used for testing, refer to the
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
 <div style={{flex: '1 1 300px'}}>
 
-[**Click for Hardware Platforms [PDF]**](../_static/download/benchmarking_OV_platform_list.pdf)
+[**Click for Hardware Platforms [PDF]**](https://docs.openvino.ai/2026/_static/download/benchmarking_OV_platform_list.pdf)
 
-[**Click for Configuration Details [XLSX]**](../_static/download/benchmarking_OV_system_info_detailed.xlsx)
+[**Click for Configuration Details [XLSX]**](https://docs.openvino.ai/2026/_static/download/benchmarking_OV_system_info_detailed.xlsx)
 
 </div>
 </div>
@@ -125,4 +125,3 @@ for non-Intel products.
 
 Results may vary. For more information, see
 [F.A.Q.](performance-benchmarks-faq.md)
-See [Legal Information](../additional-resources/terms-of-use.md).

@@ -23,8 +23,8 @@ All currently supported versions are:
 OpenVINO GenAI streamlines application development by providing LLM-specific interfaces for
 easy integration of language models, handling tokenization and text generation.
 For installation and usage instructions, check
-[OpenVINO GenAI installation](../../openvino-workflow-generative) and
-[inference with OpenVINO GenAI](../../openvino-workflow-generative/inference-with-genai).
+[OpenVINO GenAI installation](pathname:///genai/docs/getting-started/installation/) and
+[inference with OpenVINO GenAI](pathname:///genai/docs/getting-started/introduction/).
 
 </details>
 

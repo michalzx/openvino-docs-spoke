@@ -99,7 +99,7 @@ By default, weights are compressed asymmetrically to "INT8\_ASYM" mode.
   ```
 
   For more details, refer to the article on how to
-  [infer LLMs using Optimum Intel](../../../openvino-workflow-generative/inference-with-optimum-intel).
+  [infer LLMs using Optimum Intel](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-optimum-intel.html).
   </TabItem>
   <TabItem value="nncf" label="Compression with NNCF">
   Load a pre-trained Hugging Face model, using the Optimum Intel API,
@@ -210,7 +210,7 @@ depending on the model.
   ```
 
   For more details, refer to the article on how to
-  [infer LLMs using Optimum Intel](../../../../openvino-workflow-generative/inference-with-optimum-intel).
+  [infer LLMs using Optimum Intel](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-optimum-intel.html).
   </TabItem>
 </Tabs>
 
@@ -219,7 +219,7 @@ Refer to the article about
 for more details.
 
 Once the model has been optimized, it is ready for compilation and inference. The model can
-also be [saved into a compressed format](#save-pretrained), resulting in a
+also be [saved into a compressed format](#exporting-and-loading-compressed-models), resulting in a
 smaller binary file.
 
 The table below summarizes the benefits and trade-offs for each compression type in terms of
@@ -306,7 +306,7 @@ tokenizer = AutoTokenizer.from_pretrained("Phi-3.5-mini-instruct-int4-sym-ov")
 
 :::tip
 Models optimized with with NNCF or Optimum Intel can be used with
-[OpenVINO GenAI](../../../openvino-workflow-generative/inference-with-genai).
+[OpenVINO GenAI](pathname:///genai/docs/getting-started/introduction/).
 :::
 
 ## Auto-tuning of Weight Compression Parameters

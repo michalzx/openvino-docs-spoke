@@ -116,7 +116,7 @@ operating system or environment.
      
      The following installation steps should work on a clean install of Red Hat,
      CentOS, Amazon Linux 2 or Fedora. If any issues occur, see the
-     [Troubleshooting](#-troubleshooting) section.
+     [Troubleshooting](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/README.md#-troubleshooting) section.
      
      ```console
      sudo yum update

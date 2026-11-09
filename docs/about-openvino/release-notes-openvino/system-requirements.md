@@ -286,5 +286,4 @@ to learn more about the release types.
   </TabItem>
 </Tabs>
 
-The claims stated here may not apply to all use cases and setups. See
-[Legal notices and terms of use](../additional-resources/terms-of-use.md) for more information.
+The claims stated here may not apply to all use cases and setups.
