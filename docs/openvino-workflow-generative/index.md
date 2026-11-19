@@ -5,6 +5,7 @@ description: "learn how to use OpenVINO to run generative AI models."
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import quickStartPdf from './GenAI_Quick_Start_Guide.pdf';
 
 # Generative AI workflow
 
@@ -29,7 +30,7 @@ options:
   text generation loop, tokenization, and scheduling, offering ease of use and high
   performance.
 
-  [Check out the OpenVINO GenAI Quick-start Guide [PDF]](https://docs.openvino.ai/2026/_static/download/GenAI_Quick_Start_Guide.pdf)
+  <a href={quickStartPdf}>Check out the OpenVINO GenAI Quick-start Guide [PDF]</a>
   </TabItem>
   <TabItem value="optimum-intel-hugging-face-integration" label="Optimum Intel (Hugging Face integration)">
   - Suggested for prototyping and, if the use case is not covered by OpenVINO GenAI, production.  
