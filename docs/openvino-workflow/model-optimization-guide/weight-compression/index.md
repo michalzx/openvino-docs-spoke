@@ -99,7 +99,7 @@ By default, weights are compressed asymmetrically to "INT8\_ASYM" mode.
   ```
 
   For more details, refer to the article on how to
-  [infer LLMs using Optimum Intel](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-optimum-intel.html).
+  [infer LLMs using Optimum Intel](/docs/openvino-workflow-generative/inference-with-optimum-intel/).
   </TabItem>
   <TabItem value="nncf" label="Compression with NNCF">
   Load a pre-trained Hugging Face model, using the Optimum Intel API,
@@ -210,7 +210,7 @@ depending on the model.
   ```
 
   For more details, refer to the article on how to
-  [infer LLMs using Optimum Intel](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-optimum-intel.html).
+  [infer LLMs using Optimum Intel](/docs/openvino-workflow-generative/inference-with-optimum-intel/).
   </TabItem>
 </Tabs>
 

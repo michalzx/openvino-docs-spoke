@@ -12,7 +12,7 @@ hosted in repositories under the OpenVINO project:
 
 **GenAI**  
 [GitHub](https://github.com/openvinotoolkit/openvino.genai)
-[User Guide](https://docs.openvino.ai/2026/openvino-workflow-generative/inference-with-genai.html)
+[User Guide](pathname:///genai/docs/getting-started/introduction/)
 
 OpenVINO™ GenAI Library simplifies running inference of generative AI
 models. Check the LLM-powered Chatbot Jupyter notebook to see how GenAI works.
@@ -51,7 +51,7 @@ vision AI models on computers or edge devices.
 
 **Tokenizers**  
 [GitHub](https://github.com/openvinotoolkit/openvino_tokenizers)
-[User Guide](https://docs.openvino.ai/2026/openvino-workflow-generative/ov-tokenizers.html)
+[User Guide](/docs/openvino-workflow-generative/ov-tokenizers/)
 
 OpenVINO Tokenizers add text processing operations to OpenVINO.
 <hr style={{marginTop: '-12px!important', borderTop: '1px solid #383838'}}/>
