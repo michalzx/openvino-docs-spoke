@@ -105,7 +105,7 @@ you can find the percentage of tests where the outputs of the original and conve
 
 You can use converted tokenizers in C++ pipelines with prebuild binaries.
 
-1. Download [OpenVINO archive distribution](/docs/get-started/install-openvino/) for your OS and extract the archive.
+1. Download [OpenVINO archive distribution](pathname:///openvino/docs/get-started/install-openvino/) for your OS and extract the archive.
 2. Download [OpenVINO Tokenizers prebuild libraries](https://storage.openvinotoolkit.org/repositories/openvino_tokenizers/packages/2026.4.0.0/). To ensure compatibility, the first three numbers of the OpenVINO Tokenizers version should match the OpenVINO version and OS.
 3. Extract OpenVINO Tokenizers archive into the OpenVINO installation directory:
    
@@ -155,7 +155,7 @@ You can use converted tokenizers in C++ pipelines with prebuild binaries.
    If you use the `2023.3.0.0` version, the binary extension file is called `(lib)user_ov_extension.(dll/dylib/so)`.
 
 You can learn how to read and compile converted models in the
-[Model Preparation](/docs/openvino-workflow/model-preparation/) guide.
+[Model Preparation](pathname:///openvino/docs/openvino-workflow/model-preparation/) guide.
 
 ## Tokenizers Usage
 

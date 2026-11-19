@@ -51,7 +51,7 @@ vision AI models on computers or edge devices.
 
 **Tokenizers**  
 [GitHub](https://github.com/openvinotoolkit/openvino_tokenizers)
-[User Guide](/docs/openvino-workflow-generative/ov-tokenizers/)
+[User Guide](pathname:///openvino/docs/openvino-workflow-generative/ov-tokenizers/)
 
 OpenVINO Tokenizers add text processing operations to OpenVINO.
 <hr style={{marginTop: '-12px!important', borderTop: '1px solid #383838'}}/>

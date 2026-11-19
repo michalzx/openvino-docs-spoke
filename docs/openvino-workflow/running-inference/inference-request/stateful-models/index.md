@@ -62,7 +62,7 @@ from the application code to OpenVINO and all related internal work is hidden fr
 
 There are three methods of turning an OpenVINO model into a stateful one:
 
-- [Optimum-Intel](/docs/openvino-workflow-generative/inference-with-optimum-intel/) - the most user-friendly option. All necessary optimizations
+- [Optimum-Intel](pathname:///openvino/docs/openvino-workflow-generative/inference-with-optimum-intel/) - the most user-friendly option. All necessary optimizations
   are recognized and applied automatically. The drawback is, the tool does not work with all
   models.
 - [MakeStateful transformation](obtaining-stateful-openvino-model.md#ov-ug-make-stateful) - enables the user to choose which

@@ -23,7 +23,7 @@ options:
   - Available in both Python and C++.  
   - A limited set of supported use cases.
 
-  [Install the OpenVINO GenAI package](/docs/get-started/install-openvino/install-openvino-genai/)
+  [Install the OpenVINO GenAI package](pathname:///openvino/docs/get-started/install-openvino/install-openvino-genai/)
   and run generative models out of the box. With custom
   API and tokenizers, among other components, it manages the essential tasks such as the
   text generation loop, tokenization, and scheduling, offering ease of use and high
@@ -84,7 +84,7 @@ Models from the Hugging Face Transformers are converted into a stateful form, op
 inference performance and memory usage in long-running text generation tasks by managing past
 KV-cache tensors more efficiently internally. This feature is automatically activated for
 many supported models, while unsupported ones remain stateless. Learn more about the
-[Stateful models and State API](/docs/openvino-workflow/running-inference/inference-request/stateful-models/).
+[Stateful models and State API](pathname:///openvino/docs/openvino-workflow/running-inference/inference-request/stateful-models/).
 
 **Optimized LLM inference**  
 Includes a Python API for rapid development and C++ for further optimization, offering

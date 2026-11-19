@@ -17,7 +17,7 @@ other OpenVINO tools.
 ## Prerequisites
 
 - Create a Python environment by following the instructions on the
-  [Install OpenVINO PIP](/docs/get-started/install-openvino/)
+  [Install OpenVINO PIP](pathname:///openvino/docs/get-started/install-openvino/)
 - Install the necessary dependencies for Optimum Intel:
 
 ```console
@@ -157,7 +157,7 @@ such as `meta-llama/Llama-2-7b` or `Qwen/Qwen-7B-Chat`. These parameters are use
 default only when `bits=4` is specified in the config.
 
 For more details on compression options, refer to the corresponding [Optimum documentation](https://huggingface.co/docs/optimum/en/intel/openvino/optimization#4-bit).
-For native NNCF weight quantization options, refer to the [weight compression guide](/docs/openvino-workflow/model-optimization-guide/weight-compression/).
+For native NNCF weight quantization options, refer to the [weight compression guide](pathname:///openvino/docs/openvino-workflow/model-optimization-guide/weight-compression/).
 
 OpenVINO also supports 4-bit models from Hugging Face [Transformers](https://github.com/huggingface/transformers)
 library optimized with [GPTQ](https://github.com/PanQiWei/AutoGPTQ). In this case, there
@@ -223,7 +223,7 @@ includes **Dynamic quantization** of activations of 4/8-bit quantized MatMuls an
 
 - **Dynamic quantization** enables quantization of activations of MatMul operations
   that have 4 or 8-bit quantized weights (see
-  [LLM Weight Compression](/docs/openvino-workflow/model-optimization-guide/weight-compression/).
+  [LLM Weight Compression](pathname:///openvino/docs/openvino-workflow/model-optimization-guide/weight-compression/).
   It improves inference latency and throughput of LLMs, though it may cause
   insignificant deviation in generation accuracy.  Quantization is performed in a group-wise
   manner, with configurable group size. It means that values in a group share quantization
@@ -248,7 +248,7 @@ includes **Dynamic quantization** of activations of 4/8-bit quantized MatMuls an
   - **(Primary Option)** Set `DYNAMIC_QUANTIZATION_GROUP_SIZE` to the `0` value.
   - Switch execution mode from the `PERFORMANCE mode` to the `ACCURACY mode`. However, this
     option affects inference precision as well. You can learn more about both: `PERFORMANCE`
-    and `ACCURACY` modes by following the [Precision Control Guide](/docs/openvino-workflow/running-inference/optimize-inference/precision-control/#execution-mode).
+    and `ACCURACY` modes by following the [Precision Control Guide](pathname:///openvino/docs/openvino-workflow/running-inference/optimize-inference/precision-control/#execution-mode).
   
   To change a group size value (e.g. to `64`), you need to execute the following code:
   
@@ -312,7 +312,7 @@ mentioned above.
 
 ## Execution on CPU device
 
-As mentioned in the [Composability of different threading runtimes](/docs/openvino-workflow/running-inference/inference-devices-and-modes/cpu-device/performance-hint-and-thread-scheduling/#composability-of-different-threading-runtimes) section, OpenVINO's default threading runtime,
+As mentioned in the [Composability of different threading runtimes](pathname:///openvino/docs/openvino-workflow/running-inference/inference-devices-and-modes/cpu-device/performance-hint-and-thread-scheduling/#composability-of-different-threading-runtimes) section, OpenVINO's default threading runtime,
 oneTBB, keeps CPU cores active for a while after inference is done. When using Optimum Intel Python API,
 it calls Torch (via HF transformers) for postprocessing, such as beam search or gready search.
 Torch uses OpenMP for threading, OpenMP needs to wait for CPU cores that are kept active by
@@ -326,7 +326,7 @@ It is recommended to:
 ## Additional Resources
 
 - [Optimum Intel documentation](https://huggingface.co/docs/optimum/intel/inference)
-- [LLM Weight Compression](/docs/openvino-workflow/model-optimization-guide/weight-compression/)
+- [LLM Weight Compression](pathname:///openvino/docs/openvino-workflow/model-optimization-guide/weight-compression/)
 - [Neural Network Compression Framework](https://github.com/openvinotoolkit/nncf)
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
 - [Generation with LLMs](https://huggingface.co/docs/transformers/llm_tutorial)
