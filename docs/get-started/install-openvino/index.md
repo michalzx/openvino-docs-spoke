@@ -6,10 +6,10 @@ description: "install OpenVINO Runtime package, using the distribution channel o
 
 # Install OpenVINO™ 2026.4
 
+import SelectorFrame from './SelectorFrame';
 
-<script type="module" crossorigin src="/openvino/_static/selector-tool/assets/index-klvebykp.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<iframe id="selector" src="/openvino/_static/selector-tool/selector-30c413f.html" style={{width: '100%', border: 'none'}} title="Download Intel® Distribution of OpenVINO™ Toolkit"></iframe>
+
+<SelectorFrame src="/openvino/_static/selector-tool/selector-30c413f.html" title="Download Intel® Distribution of OpenVINO™ Toolkit" />
 
 OpenVINO 2026.4, described here, is not a Long-Term-Support version!
 All currently supported versions are:
